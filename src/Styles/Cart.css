@@ -1,0 +1,43 @@
+
+
+.cart-info {
+    display: flex;
+    gap: 50px;
+    height: 70vh;
+    margin: 0 100px;
+    margin-bottom: calc(50px + 50px);
+    justify-content: center;
+    /* background-color: white; */
+}
+
+.cart-info > div {
+    border-radius: 30px;
+}
+
+.cart-summary {
+    border: 2px solid white;
+    background-color: black;
+    flex: 5;
+    padding: 30px;
+}
+
+.bill-container {
+    flex: 2;
+    border: 2px solid white;
+    background-color: black;
+    padding: 30px;
+    gap: 10px;
+    display: grid;
+    grid-template-rows: 1fr 50px;
+}
+
+.summaries, .bills {
+    color: white;
+    height: 100%;
+    gap: 5px;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+}
