@@ -1,4 +1,4 @@
-import '../Styles/BillItem.css';
+import '../Styles/billitem.css';
 
 export default function BillItem({product, count}) {
 
